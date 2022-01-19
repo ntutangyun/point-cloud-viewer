@@ -2,6 +2,7 @@
   "name": "point-cloud-viewer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ntutangyun.github.io/point-cloud-viewer",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b deploy -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
