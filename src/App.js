@@ -1,7 +1,7 @@
 import "./App.css";
 import "./main.css";
 
-import * as THREE from "./three.module.js";
+import * as THREE from "three";
 
 import {OrbitControls} from "./OrbitControls.js";
 import {PCDLoader} from "./PCDLoader.js";
