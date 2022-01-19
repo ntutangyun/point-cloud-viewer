@@ -21,7 +21,7 @@ function App() {
         scene = new THREE.Scene();
 
         camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.01, 500);
-        camera.position.set(0, 0, -100);
+        camera.position.set(0, 0, 200);
         scene.add(camera);
 
         controls = new OrbitControls(camera, renderer.domElement);
@@ -62,8 +62,8 @@ function App() {
             setFilename(e.target.files[0].name);
 
             points.geometry.center();
-            points.geometry.rotateX(Math.PI);
-            points.material.color.setHex(Math.random() * 0xffffff);
+            points.geometry.rotateZ(Math.PI / 2);
+            points.material.color.setHex(0xffffff);
             points.material.size = 0.8;
             scene.add(points);
 
