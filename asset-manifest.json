@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/point-cloud-viewer/static/css/main.b4750880.css",
+    "main.js": "/point-cloud-viewer/static/js/main.e2140c0e.js",
+    "index.html": "/point-cloud-viewer/index.html",
+    "main.b4750880.css.map": "/point-cloud-viewer/static/css/main.b4750880.css.map",
+    "main.e2140c0e.js.map": "/point-cloud-viewer/static/js/main.e2140c0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4750880.css",
+    "static/js/main.e2140c0e.js"
+  ]
+}
